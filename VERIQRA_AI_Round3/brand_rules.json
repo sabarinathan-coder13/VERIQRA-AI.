@@ -1,0 +1,18 @@
+{
+  "colors": [
+    "#0A3D62",
+    "#F5F6FA"
+  ],
+  "delta_e_max": 5,
+  "fonts": [
+    "Poppins",
+    "Inter"
+  ],
+  "logo": {
+    "reference_path": "assets/brand_logos/primary_logo.png",
+    "min_width_px": 80,
+    "clear_space_px": 40,
+    "aspect_ratio_tolerance": 0.05,
+    "match_threshold": 0.6
+  }
+}

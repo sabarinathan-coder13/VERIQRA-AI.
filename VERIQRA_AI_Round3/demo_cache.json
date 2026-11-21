@@ -1,0 +1,172 @@
+[
+  {
+    "case_id": "T01",
+    "input": "Our product guarantees 100% success for every customer.",
+    "approved_facts": [
+      "Our service is available online"
+    ],
+    "result": {
+      "claims": [
+        {
+          "claim": "Our product guarantees 100% success for every customer.",
+          "claim_type": "absolute_guarantee",
+          "status": "unsupported",
+          "risk_level": "high",
+          "reason": "Offline benchmark baseline; not legal validation.",
+          "evidence_needed": [],
+          "sources": [],
+          "suggested_rewrite": "Use only substantiated facts.",
+          "human_review_required": true
+        }
+      ],
+      "qualifiers_detected": [],
+      "summary": "2 finding(s) identified by deterministic checks. This is a screening result, not legal approval."
+    }
+  },
+  {
+    "case_id": "T02",
+    "input": "Our platform improves productivity by 87% in one week.",
+    "approved_facts": [
+      "Our service is available online"
+    ],
+    "result": {
+      "claims": [
+        {
+          "claim": "Our platform improves productivity by 87% in one week.",
+          "claim_type": "performance_statistic",
+          "status": "unsupported",
+          "risk_level": "high",
+          "reason": "Offline benchmark baseline; not legal validation.",
+          "evidence_needed": [],
+          "sources": [],
+          "suggested_rewrite": "Use only substantiated facts.",
+          "human_review_required": true
+        }
+      ],
+      "qualifiers_detected": [],
+      "summary": "0 finding(s) identified by deterministic checks. This is a screening result, not legal approval."
+    }
+  },
+  {
+    "case_id": "T03",
+    "input": "Enjoy a beautiful and modern experience.",
+    "approved_facts": [
+      "Our service is available online"
+    ],
+    "result": {
+      "claims": [
+        {
+          "claim": "Enjoy a beautiful and modern experience.",
+          "claim_type": "subjective_opinion",
+          "status": "not_a_factual_claim",
+          "risk_level": "low",
+          "reason": "Offline benchmark baseline; not legal validation.",
+          "evidence_needed": [],
+          "sources": [],
+          "suggested_rewrite": "Use only substantiated facts.",
+          "human_review_required": false
+        }
+      ],
+      "qualifiers_detected": [],
+      "summary": "0 finding(s) identified by deterministic checks. This is a screening result, not legal approval."
+    }
+  },
+  {
+    "case_id": "T04",
+    "input": "Our service is ISO certified.",
+    "approved_facts": [
+      "Our service is available online"
+    ],
+    "result": {
+      "claims": [
+        {
+          "claim": "Our service is ISO certified.",
+          "claim_type": "certification",
+          "status": "unsupported",
+          "risk_level": "high",
+          "reason": "Offline benchmark baseline; not legal validation.",
+          "evidence_needed": [],
+          "sources": [],
+          "suggested_rewrite": "Use only substantiated facts.",
+          "human_review_required": true
+        }
+      ],
+      "qualifiers_detected": [],
+      "summary": "2 finding(s) identified by deterministic checks. This is a screening result, not legal approval."
+    }
+  },
+  {
+    "case_id": "T05",
+    "input": "Get 50% off until Sunday.",
+    "approved_facts": [
+      "Our service is available online"
+    ],
+    "result": {
+      "claims": [
+        {
+          "claim": "Get 50% off until Sunday.",
+          "claim_type": "discount_offer",
+          "status": "unsupported",
+          "risk_level": "high",
+          "reason": "Offline benchmark baseline; not legal validation.",
+          "evidence_needed": [],
+          "sources": [],
+          "suggested_rewrite": "Use only substantiated facts.",
+          "human_review_required": true
+        }
+      ],
+      "qualifiers_detected": [
+        "until"
+      ],
+      "summary": "1 finding(s) identified by deterministic checks. This is a screening result, not legal approval."
+    }
+  },
+  {
+    "case_id": "T06",
+    "input": "Our service is available online.",
+    "approved_facts": [
+      "Our service is available online"
+    ],
+    "result": {
+      "claims": [
+        {
+          "claim": "Our service is available online.",
+          "claim_type": "factual_statement",
+          "status": "supported",
+          "risk_level": "high",
+          "reason": "Offline benchmark baseline; not legal validation.",
+          "evidence_needed": [],
+          "sources": [],
+          "suggested_rewrite": "Use only substantiated facts.",
+          "human_review_required": false
+        }
+      ],
+      "qualifiers_detected": [],
+      "summary": "0 finding(s) identified by deterministic checks. This is a screening result, not legal approval."
+    }
+  },
+  {
+    "case_id": "T07",
+    "input": "We are the best platform in the world.",
+    "approved_facts": [
+      "Our service is available online"
+    ],
+    "result": {
+      "claims": [
+        {
+          "claim": "We are the best platform in the world.",
+          "claim_type": "superiority_ranking",
+          "status": "unsupported",
+          "risk_level": "high",
+          "reason": "Offline benchmark baseline; not legal validation.",
+          "evidence_needed": [],
+          "sources": [],
+          "suggested_rewrite": "Use only substantiated facts.",
+          "human_review_required": true
+        }
+      ],
+      "qualifiers_detected": [],
+      "summary": "1 finding(s) identified by deterministic checks. This is a screening result, not legal approval."
+    }
+  }
+]
